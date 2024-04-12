@@ -1,0 +1,99 @@
+*{
+     font-family: 'Open Sans', sans-serif;
+}
+
+.container-cards {
+     background-color: #f5efef;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 5%;
+     
+}
+.title-body h1{
+     color: #2bbdce;
+     margin-top: 0;
+     padding-top:30px;
+     padding-bottom: 2px;
+     text-align: center;
+     font-size: 2.2em;
+     letter-spacing: 2px;
+}
+
+.cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 15px;
+     width: 100%;
+}
+
+.card {
+     background: #fff;
+     border-radius: 0.25rem;
+     box-shadow: 0 20px 40px -14px #000;
+     width: 450px;
+     margin-bottom: 15px;
+
+}
+
+img{
+     max-width: 100%;
+}
+
+.card-content {
+     padding-left: 1.4em;
+     padding-right: 1.4em;
+}
+
+.card-content h1{
+     font-size: 1.6rem;
+     margin-bottom: 0;
+     font-weight: 500;
+     margin-top: 15px;
+     letter-spacing: 1px;
+}
+
+.card-content p{
+     font-size: 1.2rem;
+     font-weight: lighter;
+     line-height: 1.4rem;
+}
+/*       GALERIA DE FOTOS       */
+
+.conteiner-dark{
+     background-color: #449ad3;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 5%;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.title-gallery {
+     width: 100%;
+     font-size: 2.2em;
+
+}
+
+.title-gallery h1{
+     color: #fff;
+     letter-spacing: 2px;
+     text-align: center;
+     font-size: 2.2em;
+}
+/* catalogo funkos*/
+.gallery {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+.gallery .foto{
+     padding: 10px;
+     margin: 20px;
+     background-color: #fff;
+     width: 300px;
+     border-radius: 10px;
+}
+/*catalogo funkos*/
+
